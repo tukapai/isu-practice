@@ -1,0 +1,15 @@
+# 生ログ・大きな計測ファイル
+*.log
+*.pprof
+*.prof
+practice/**/logs/raw/
+
+# 環境・秘密情報
+.env
+*.pem
+id_*
+
+# OS / エディタ
+.DS_Store
+.idea/
+.vscode/
